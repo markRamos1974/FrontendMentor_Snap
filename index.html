@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&display=swap" rel="stylesheet"> 
+  <style>
+    .attribution { font-size: 11px; text-align: left; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+      <img src="./resources/logo.svg" alt="Snap Logo"/>
+      <div class="hamburger-menu">
+      <span></span>
+      <span></span>
+      <span>
+    </div>
+    </span>
+    </div>
+    
+      <div class="header-navigation">
+        <nav>
+          <ul>
+            <li class="nav-list-item">
+              <div class="nav-dropdown">
+                <a href="#">Features</a>
+                <img src="./resources/icon-arrow-down.svg" class="arrow"/>
+              </div>
+              <ul class="list">
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./resources/icon-todo.svg" alt="Todo List Icon"/>
+                      <p>Todo List</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./resources/icon-calendar.svg" alt="Calendar Icon"/>
+                      <p>Calendar</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <img src="./resources/icon-reminders.svg" alt="Calendar Icon"/>
+                      <p>Reminders</p>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="">
+                    <div class="margin-none" style="margin-bottom: 0px">
+                      <img src="./resources/icon-planning.svg" alt="Calendar Icon"/>
+                      <p>Planning</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-list-item">
+              <div class="nav-dropdown">
+                <a href="#">Company</a>
+                <img src="./resources/icon-arrow-down.svg" class="arrow"/>
+              </div>
+              <ul class="list list-company">
+                <li><a href="#"><p>History</p></a></li>
+                <li><a href="#"><p>Our Team</p></a></li>
+                <li><a href="#" class="margin-none"><p>Blog</p></a></li>
+              </ul>
+            </li>
+            <li class="nav-list-item"><a href="#">Careers</a></li>
+            <li class="nav-list-item"><a href="#">About</a></li>
+
+            <li class="nav-list-item">
+              <div class="login-register">
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+              </div>
+            </li>
+          </ul>
+ 
+        </nav>
+        
+      </div>
+      <div class="overlay"></div>
+      
+  </header>
+  
+  <main>
+    <article>
+      <section >
+        <div class="image-container"></div>
+        <div>
+          <h1>Make <div>remote work</div></h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline processes, 
+            create team rituals, and watch productivity soar.
+          
+          </p>
+          <a href="#">Learn More</a>
+          <footer>
+            <div>
+              <figure class="databiz">
+                <img src="./resources/client-databiz.svg" alt="databiz logo">
+              </figure>
+              <figure class="audiophile">
+                <img src="./resources/client-audiophile.svg" alt="databiz logo">
+              </figure>
+              <figure class="meet">
+                <img src="./resources/client-meet.svg" alt="databiz logo">
+              </figure>
+              <figure class="maker">
+                <img src="./resources/client-maker.svg" alt="databiz logo">
+              </figure>
+            </div>
+          </footer>
+          <div class="attribution" style="margin-top: 20px;">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://www.facebook.com/mark.ramos.16121471" target="_blank">Mark Adreian K. Ramos</a>.
+          </div>
+        </div>
+       
+      </section>
+    </article>
+  </main>
+
+ 
+ 
+  
+  
+
+
+  
+
+  <script src="./script.js"></script>
+</body>
+</html>
