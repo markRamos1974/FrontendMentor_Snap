@@ -556,7 +556,13 @@ footer > div {
     
 }
 
-
+@media (min-width: 1700px){
+    main > article > section {
+        padding-left: calc(100vw * 0.20);
+        padding-right: calc(100vw * 0.20);
+        padding-top: 50px;
+    }
+}
 
 
 /* MAIN SECTION */

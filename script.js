@@ -8,6 +8,8 @@ const dropDownMenu = document.querySelectorAll(".list")
 const arrows = document.querySelectorAll(".arrow")
 
 
+
+
 for(let i = 0; i < 2; i++){
     dropDownMenuButton[i].addEventListener("click", ()=>{
         dropDownMenu[i].classList.toggle("show-menu")
@@ -28,3 +30,7 @@ hamburgerMenu.addEventListener("click", ()=> {
 })
 
 
+// window.addEventListener("resize", ()=>{
+//     const screenWidth = window.innerWidth;
+//     console.log(screenWidth)
+// })
